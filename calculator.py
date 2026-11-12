@@ -1,6 +1,8 @@
-first_number = float(input("Enter the first number: "))
-second_number = float(input("Enter the second number: "))
+def main():
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    total = num1 + num2
+    print(f"The sum is: {total}")
 
-total_sum = first_number + second_number
-
-print(f"The sum of {first_number} and {second_number} is {total_sum}")
+if __name__ == "__main__":
+    main()
